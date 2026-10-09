@@ -1,0 +1,9 @@
+[build]
+  publish = "."
+  command = ""
+
+[[redirects]]
+  from = "https://dandystay.com/*"
+  to = "https://www.dandystay.com/:splat"
+  status = 301
+  force = true
